@@ -15,7 +15,7 @@ const Home = () => {
             Hello, I'm Jay
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          I am currently studying Computer Science at Toronto Metropolitan University. I have a strong passion for learning and creating applications and am currently seeking 2024 summer internships.
+          I am currently studying Computer Science at Toronto Metropolitan University. I have a strong passion for learning and creating applications and am currently seeking 2025 summer internships.
           </p>
 
           <div>
