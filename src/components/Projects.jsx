@@ -3,6 +3,7 @@ import blogger from "../assets/portfolio/blogger.PNG";
 import cryptoTracker from "../assets/portfolio/crypto.PNG";
 import ecommerce from "../assets/portfolio/ecommerce-temp.PNG";
 import zipper from "../assets/portfolio/zipper.PNG";
+import quizApp from "../assets/portfolio/quiz App.png";
 
 const Projects = () => {
   const portfolios = [
@@ -19,11 +20,17 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: quizApp,
+      demo: "https://quizz-app-jp.netlify.app/",
+      github: "https://github.com/JayPatel2728/Quiz-App",
+    },
+    {
+      id: 4,
       src: blogger,
       github: "https://github.com/JayPatel2728/Blogger.io",
     },
     {
-      id: 4,
+      id: 5,
       src: ecommerce,
       github: "https://github.com/JayPatel2728/OOP-Java-Eccomerce-Store",
     },
@@ -48,14 +55,16 @@ const Projects = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 w-full h-48 object-cover"
               />
               <div className="flex items-center justify-center">
-                <a href={demo}>
-                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Demo
-                    </button>
-                </a>
+                {demo && (
+                    <a href={demo}>
+                      <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                      Demo
+                      </button>
+                  </a>
+                )}
                 <a href={github}>
                     <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Github
