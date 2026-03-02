@@ -9,7 +9,6 @@ const Projects = () => {
     {
       id: 1,
       src: zipper,
-      demo: "https://zipper-mern.herokuapp.com/",
       github: "https://github.com/JayPatel2728/Zipper---Notes-App"
     },
     {
@@ -21,13 +20,11 @@ const Projects = () => {
     {
       id: 3,
       src: blogger,
-      demo: "https://github.com/JayPatel2728/Blogger.io",
       github: "https://github.com/JayPatel2728/Blogger.io",
     },
     {
       id: 4,
       src: ecommerce,
-      demo:"https://github.com/JayPatel2728/OOP-Java-Eccomerce-Store",
       github: "https://github.com/JayPatel2728/OOP-Java-Eccomerce-Store",
     },
   ];
